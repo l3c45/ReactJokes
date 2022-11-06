@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,90 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.contact {
+  padding: 0 10px;
+  text-align: left;
+  position: relative;
+  margin: 20px;
+  border: 2px solid black;
+  width: 350px;
+   height: 25px;
+  background-color: aquamarine;
+  overflow: hidden;
+ 
+}
+
+.open {
+  height: 200px;
+}
+
+
+.icon-trash {
+  position: absolute;
+  left :15px;
+  }
+
+  .icon-toogle {
+    position: absolute;
+    right: 15px;
+  }
+
+body {
+  background-color: cadetblue;
+}
+
+.headContact {
+  border :2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.headContact {
+  border :2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
+.headContact * {
+  margin: 0 10px;
+ 
+}
+
+.contact h2 {
+  display: inline;
+  padding-top: 10px;
+}
+
+.icon-plus {
+  position: absolute;
+  right:5px;
+  top:5px;
+}
+
+.icon-plus:hover{
+ fill:wheat;
+}
+
+form {
+  width:350px;
+  height: 250px;
+  border:2px solid black;
+}
+
+form label ,form input {
+  width: 90%;
+  margin: 5px 0;
 }
