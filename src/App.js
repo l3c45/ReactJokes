@@ -1,14 +1,14 @@
 import './App.css';
-import ContactList from './Components/ContactList';
-import RamdomColors from './Components/ramdomColors';
+import Home from './Components/Home';
+
 
 function App() {
   return (
     <div className='App'>
+    
+  <Home></Home>
   
   
-   {/* <ContactList></ContactList> */}
-    <RamdomColors />
     </div>
   );
 }
